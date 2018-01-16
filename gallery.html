@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gallery - Stage 5</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- pretty photo -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+<div id="container">
+
+<div id="header">
+
+<div id="logo">
+<a href="index.html"><img src="Stage 5 Images/Header/Logo_03.png" alt="Stage 5 logo"></a>
+</div> <!-- closing logo div --> 
+
+<div id="banner">
+<img src="Stage 5 Images/Header/Flash-Ad_06.png" alt="Stage 5 banner">
+</div> <!-- closing banner div -->
+
+</div> <!-- closing header div -->
+
+<div id="nav">
+
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a class="active" href="gallery.html">Gallery</a></li>
+	<li><a href="#">News</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</div> <!-- closing nav div -->
+
+<div id="featureG"> <img src="Stage 5 Images/Gallery/Top_03.jpg" alt="Stage 5 top banner"> </div> <!-- closing featureG div -->
+
+<div id="copyG"> <h2>Gallery</h2> 
+<p>Stage 5 Staging has a large selection of portable performance products to help satisfy your performance and event 
+needs. We manufacture only the highest quality of products so they will meet and exceed your expectations. Our 
+products will save you valuable time and enhance your venue space for optimum usage. Please look through our 
+product line to see how Stage 5 Staging can help make your next performance or event a success!</p>
+</div> <!-- closing copyG div -->
+
+<div id="wrapperG">
+
+<div class="colLeft">
+<p><a href="Stage 5 Images/Gallery/fullscreen/product1.jpg" rel="prettyPhoto[supports]" title="Suppoort stage product 1"><img src="Stage 5 Images/Gallery/product_01.jpg" alt="Stage 5 product 1"/></a>
+<a href="Stage 5 Images/Gallery/fullscreen/product2.jpg" rel="prettyPhoto[supports]" title="Suppoort stage product 2"><img src="Stage 5 Images/Gallery/product_02.jpg" alt="Stage 5 product 2"/></a>
+<a href="Stage 5 Images/Gallery/fullscreen/product3.jpg" rel="prettyPhoto[supports]" title="Suppoort stage product 3"><img src="Stage 5 Images/Gallery/product_03.jpg" alt="Stage 5 product 3"/></a>
+<a href="Stage 5 Images/Gallery/fullscreen/product4.jpg" rel="prettyPhoto[supports]" title="Suppoort stage product 4"><img src="Stage 5 Images/Gallery/product_04.jpg" alt="Stage 5 product 4"/></a></p>
+</div> <!-- closing first colLeft div -->
+
+<div class="colRight">
+<p><a href="Stage 5 Images/Gallery/fullscreen/product6.jpg" rel="prettyPhoto[carts]" title="Cart product 1"><img src="Stage 5 Images/Gallery/product_06.jpg" alt="Stage 5 product 6"/></a>
+<a href="Stage 5 Images/Gallery/fullscreen/product7.png" rel="prettyPhoto[carts]" title="Cart product 2"><img src="Stage 5 Images/Gallery/product_07.jpg" alt="Stage 5 product 7"/></a></p>
+</div> <!-- closing first colLeft div -->
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+		animation_speed: 'fast', /* fast/slow/normal */
+		slideshow: 5000, /* false OR interval time in ms */
+		autoplay_slideshow: false, /* true/false */
+		opacity: 0.3, /* Value between 0 and 1 */
+		show_title: true, /* true/false */
+		allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+		default_width: 500,
+		default_height: 344,
+		counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+		theme: 'dark_rounded', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+		horizontal_padding: 20, /* The padding on each side of the picture */
+		hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+		wmode: 'opaque', /* Set the flash wmode attribute */
+		autoplay: true, /* Automatically start videos: True/False */
+		modal: false, /* If set to true, only the close button will close the window */
+		deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+		overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+		keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+		social_tools:false /* html or false to disable */
+	});
+  });
+</script>
+
+</div> <!-- closing wrapperG div -->
+
+<hr>
+
+<div id="footer">
+
+<div id="footerLeft">
+<ul>
+	<li><a href="index.html">Home</a></li> 
+	<li><a href="about.html">About</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="news.html">News</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</div> <!-- closing footer left div -->
+
+<div id="footerRight">
+<p><a href="http://www.ararental.org/"><img src="Stage 5 Images/Footer/ARA_23.png" alt="ARA image"></a> <a href="https://www.plasa.org/"><img src="Stage 5 Images/Footer/Plasa_24.png" alt="Plasa image"></a> <a href="http://www.citt.org/"><img src="Stage 5 Images/Footer/Citi_25.png" alt="Citi image"></a></p>
+<h5>Copyright &copy; 2014 Stage 5 Staging Company Inc. All rights reserved.</h5>
+</div> <!-- closing footer right div -->
+
+</div> <!-- closing footer right div -->
+
+</div> <!-- closing footer div -->
+
+</div> <!-- closing container div -->
+</body>
+</html>
